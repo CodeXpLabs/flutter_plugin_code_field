@@ -2,8 +2,6 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
 import 'package:linked_scroll_controller/linked_scroll_controller.dart';
 import './code_controller.dart';
 
@@ -68,7 +66,7 @@ class CodeField extends StatefulWidget {
   /// Whether overflowing lines should wrap around or make the field scrollable horizontally
   final bool wrap;
 
-  /// A CodeController instance to apply language highlight, themeing and modifiers
+  /// A CodeController instance to apply language highlight, theming and modifiers
   final CodeController controller;
 
   /// A LineNumberStyle instance to tweak the line number column styling

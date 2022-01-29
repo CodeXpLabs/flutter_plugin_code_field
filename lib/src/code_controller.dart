@@ -14,7 +14,7 @@ class EditorParams {
 }
 
 class CodeController extends TextEditingController {
-  /// A highligh language to parse the text with
+  /// A highlight language to parse the text with
   final Mode? language;
 
   /// The theme to apply to the [language] parsing result

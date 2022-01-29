@@ -4,10 +4,10 @@ A customizable code text field supporting syntax highlighting
 
 [![Pub](https://img.shields.io/pub/v/code_text_field.svg)](https://pub.dev/packages/code_text_field)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://bertrandbev.github.io/code_field/)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://raw.githubusercontent.com/BertrandBev/code_field/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/LICENSE)
 [![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square)](https://github.com/Solido/awesome-flutter)
 
-<img src="https://raw.githubusercontent.com/BertrandBev/code_field/master/doc/images/top.gif" width="70%">
+<img src="https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/doc/images/top.gif" width="70%">
 
 ## Live demo
 
@@ -29,13 +29,13 @@ The experimental VM [dlox](https://github.com/BertrandBev/dlox) uses **CodeField
 
 Code modifiers help manage indents automatically
 
-<img src="https://raw.githubusercontent.com/BertrandBev/code_field/master/doc/images/typing.gif" width="70%">
+<img src="https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/doc/images/typing.gif" width="70%">
 
 
 The editor is wrapped in a horizontal scrollable container to handle long lines
 
 
-<img src="https://raw.githubusercontent.com/BertrandBev/code_field/master/doc/images/long_line.gif" width="70%">
+<img src="https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/doc/images/long_line.gif" width="70%">
 
 
 ## Installing
@@ -104,9 +104,9 @@ class _CodeEditorState extends State<CodeEditor> {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/BertrandBev/code_field/master/doc/images/example_0.png" width="60%">
+<img src="https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/doc/images/example_0.png" width="60%">
 
-Here, the monospace font [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?preview.text_type=custom) has been added to the assets folder and to the [pubspec.yaml](https://github.com/BertrandBev/code_field/blob/master/example/pubspec.yaml) file
+Here, the monospace font [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?preview.text_type=custom) has been added to the assets folder and to the [pubspec.yaml](https://github.com/CodeXpLabs/flutter_plugin_code_field/blob/master/example/pubspec.yaml) file
 
 
 ## Parser options
@@ -123,7 +123,7 @@ _codeController = CodeController(
 );
 ```
 
-<img src="https://raw.githubusercontent.com/BertrandBev/code_field/master/doc/images/example_1.png" width="60%">
+<img src="https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/doc/images/example_1.png" width="60%">
 
 More complex regexes may also be used with the **patternMap**. When a language is used though, its regexes patterns take precedence over **patternMap** and **stringMap**.
 
@@ -137,7 +137,7 @@ _codeController = CodeController(
 );
 ```
 
-<img src="https://raw.githubusercontent.com/BertrandBev/code_field/master/doc/images/example_2.png" width="60%">
+<img src="https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/doc/images/example_2.png" width="60%">
 
 Both **patternMap** and **stringMap** can be used without specifying a language
 
@@ -155,7 +155,7 @@ _codeController = CodeController(
 );
 ```
 
-<img src="https://raw.githubusercontent.com/BertrandBev/code_field/master/doc/images/example_3.png" width="60%">
+<img src="https://raw.githubusercontent.com/CodeXpLabs/flutter_plugin_code_field/master/doc/images/example_3.png" width="60%">
 
 
 ## Code Modifiers
@@ -238,4 +238,4 @@ CodeController({
 
 ## Notes
 
-A [breaking change](https://flutter.dev/docs/release/breaking-changes/buildtextspan-buildcontext) to the `TextEditingController` was introduced in flutter beta, dev & master channels. The branch [beta](https://github.com/BertrandBev/code_field/tree/beta) should comply with those changes.
+A [breaking change](https://flutter.dev/docs/release/breaking-changes/buildtextspan-buildcontext) to the `TextEditingController` was introduced in flutter beta, dev & master channels. The branch [beta](https://github.com/CodeXpLabs/flutter_plugin_code_field/tree/beta) should comply with those changes.
